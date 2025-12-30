@@ -1,0 +1,50 @@
+:root {
+	--color-brand-light: #819b57; /*Брендовий зелений*/
+	--color-brand-dark: #465929; /*Брендовий темно-зелений*/
+	--color-primary-light: #faf4ea; /*Основний світлий*/
+	--color-primary-dark: #31261a; /*Основний темний*/
+}
+/*Base*/
+body {
+	color: var(--color-primary-dark);
+}
+ul {
+  list-style-type: none;
+}
+
+/*Buttons*/
+.button-callback {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.button-callback:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+
+/*Links*/
+.link {
+  color: var(--color-primary-light);
+}
+.link:hover {
+  color: var(--color-brand-light);
+}
+/*Main section*/
+.main-title {
+  color: var(--color-primary-light);
+}
+.main-title .accent {
+  color: var(--color-brand-light);
+}
+/*Advantages*/
+.advantages-list {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
+}
+/*Sections*/
+.section-title .accent {
+  color: var(--color-brand-dark);
+}
